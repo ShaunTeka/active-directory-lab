@@ -61,7 +61,7 @@ Performed the initial configuration of Windows Server 2022, including:
 - Timezone configuration
 - Server preparation for Active Directory deployment
 
-### Screenshot
+### Screenshot (Server installed)
 
 ![Server Configuration](./screenshots/01-server-installed.png)
 
