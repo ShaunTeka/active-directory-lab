@@ -2,17 +2,15 @@
 
 ## Overview
 
-This project demonstrates the deployment and configuration of a Windows Server 2022 Active Directory environment using VirtualBox.
+This project demonstrates the deployment and configuration of a Windows Server 2022 Active Directory environment using VirtualBox. The lab simulates a small enterprise infrastructure environment with integrated Active Directory, DNS, DHCP, and Windows client domain management.
 
-The lab was designed to simulate a small enterprise infrastructure environment including:
-
-* Active Directory Domain Services (AD DS)
-* DNS Configuration
-* DHCP Configuration
-* Domain Controller Promotion
-* Reverse Lookup Zones
-* Domain Joining
-* User & Computer Management
+The environment was built to strengthen practical skills in:
+- Windows Server Administration
+- Active Directory Domain Services (AD DS)
+- DNS & DHCP Configuration
+- Enterprise Network Infrastructure
+- Identity & Access Management
+- Virtualization Technologies
 
 ---
 
@@ -20,36 +18,36 @@ The lab was designed to simulate a small enterprise infrastructure environment i
 
 ## Technologies Used
 
-* Windows Server 2022
-* Windows 10 Client
-* VirtualBox
-* Active Directory Domain Services (AD DS)
-* DNS
-* DHCP
+- Windows Server 2022
+- Windows 10 Client
+- VirtualBox
+- Active Directory Domain Services (AD DS)
+- DNS
+- DHCP
 
 ---
 
 # Objectives
 
-* Configure a Domain Controller
-* Install and configure Active Directory
-* Configure DNS Services
-* Configure DHCP Services
-* Create and manage domains
-* Configure reverse lookup zones
-* Join a client machine to the domain
-* Simulate an enterprise network environment
+- Configure a Windows Server 2022 Domain Controller
+- Install and configure Active Directory Domain Services
+- Configure DNS Services
+- Configure DHCP Services
+- Create and manage a domain environment
+- Configure reverse lookup zones and PTR records
+- Join a Windows 10 client machine to the domain
+- Simulate a small enterprise network infrastructure
 
 ---
 
 # Domain Information
 
-| Configuration           | Value                  |
-| ----------------------- | ---------------------- |
-| Domain Name             | shaunmonwabisiteka.com |
-| Server Role             | Domain Controller      |
-| Client Machine          | Windows10-VM00         |
-| Virtualization Platform | VirtualBox             |
+| Configuration | Value |
+|---|---|
+| Domain Name | shaunmonwabisiteka.com |
+| Server Role | Domain Controller |
+| Client Machine | Windows10-VM00 |
+| Virtualization Platform | VirtualBox |
 
 ---
 
@@ -57,12 +55,11 @@ The lab was designed to simulate a small enterprise infrastructure environment i
 
 ## 1. Server Installation & Initial Configuration
 
-Configured:
-
-* Windows Server 2022
-* Network connectivity
-* Server hostname
-* Timezone settings
+Performed the initial configuration of Windows Server 2022, including:
+- Network connectivity
+- Server hostname configuration
+- Timezone configuration
+- Server preparation for Active Directory deployment
 
 ### Screenshot
 
@@ -73,76 +70,93 @@ Configured:
 ## 2. Active Directory & DNS Installation
 
 Installed:
-
-* Active Directory Domain Services
-* DNS Server
+- Active Directory Domain Services (AD DS)
+- DNS Server
 
 ### Screenshot
 
-![AD Installation](screenshots/02-ad-dns-installation.png)
+![AD & DNS Installation](screenshots/02-ad-dns-installation.png)
+
+### Screenshot
+
+![AD & DNS Installation Success](screenshots/03-ad-dns-installed-successfully.png)
 
 ---
 
-## 3. Active Directory Promotion
+## 3. Active Directory Domain Controller Promotion
 
-Promoted the server to a Domain Controller and created a new forest.
-
-### Screenshot
-
-![Server Promotion](screenshots/04-promoting-server.png)
+Promoted the Windows Server to a Domain Controller and configured a new forest for the enterprise environment.
 
 ### Screenshot
 
-![Promotion Success](screenshots/06-ad-promotion-succeeded.png)
+![Promoting Server](screenshots/04-promoting-server.png)
+
+### Screenshot
+
+![AD Promotion Options](screenshots/05-ad-promotion-options.png)
+
+### Screenshot
+
+![AD Promotion Success](screenshots/06-ad-promotion-succeeded.png)
 
 ---
 
 ## 4. Domain Creation
 
-Successfully created the domain:
-shaunmonwabisiteka.com
+Successfully created the:
+shaunmonwabisiteka.com domain.
 
 ### Screenshot
 
 ![Domain Created](screenshots/07-domain-created.png)
 
+### Screenshot
+
+![Adding New Forest](screenshots/08-adding-new-forest.png)
+
 ---
 
 # DNS Configuration
 
-Configured:
-
-* Forward Lookup Zones
-* Reverse Lookup Zones
-* PTR Records
-
-### Screenshot
-
-![DNS Tools](screenshots/17-dns-tools.png)
+Configured DNS services including:
+- Forward Lookup Zones
+- Reverse Lookup Zones
+- PTR Records
 
 ### Screenshot
 
-![PTR Record](screenshots/15-ptr-record.png)
+![Reverse Lookup Zone](screenshots/15-reverse-lookup-zone.png)
+
+### Screenshot
+
+![PTR Record Configuration](screenshots/16-ptr-record.png)
+
+### Screenshot
+
+![DNS Management Tools](screenshots/18-dns-tools.png)
 
 ---
 
 # DHCP Configuration
 
-Configured DHCP services for automatic IP address assignment.
+Installed and configured DHCP services for automatic IP address assignment within the enterprise environment.
 
-### Configuration Included:
+### DHCP Configuration Included
 
-* IPv4 Scope Configuration
-* DHCP Scope Range
-* DHCP Security Groups
-* DHCP Activation
+- DHCP Role Installation
+- DHCP Post-Installation Configuration
+- IPv4 Scope Configuration
+- DHCP Scope Range Configuration
+- DHCP Security Groups
+- DHCP Activation
 
-### Scope Details
+### Screenshot
 
-| Configuration | Value         |
-| ------------- | ------------- |
-| Start IP      | 192.168.1.100 |
-| End IP        | 192.168.1.254 |
+![DHCP Installation](screenshots/09-dhcp-installation.png)
+
+### Screenshot
+
+![DHCP Post Installation](screenshots/10-dhcp-post-installation.png)
 
 ### Screenshot
 
@@ -154,62 +168,87 @@ Configured DHCP services for automatic IP address assignment.
 
 ---
 
-# Active Directory Tools
+## IP Address Scope Configuration
 
-Used:
+Configured the DHCP IPv4 scope for automatic client IP address assignment.
 
-* Active Directory Users & Computers
-* DNS Management Console
-* DHCP Console
+### Scope Details
+
+| Configuration | Value |
+|---|---|
+| Start IP Address | 192.168.1.100 |
+| End IP Address | 192.168.1.254 |
 
 ### Screenshot
 
-![AD Users & Computers](screenshots/16-ad-users-computers.png)
+![IP Address Range](screenshots/13-ip-address-range.png)
+
+### Screenshot
+
+![DHCP Active](screenshots/14-dhcp-active.png)
 
 ---
 
-# Domain Join
+# Active Directory Administrative Tools
 
-Successfully joined the Windows 10 client machine to the:
+Used the following administrative tools:
+- Active Directory Users & Computers
+- DNS Management Console
+- DHCP Management Console
+
+### Screenshot
+
+![AD Users & Computers](screenshots/17-ad-users-computers.png)
+
+---
+
+# Domain Join Configuration
+
+Successfully joined the Windows 10 client machine (Windows10-VM00) to the:
 shaunmonwabisiteka.com domain.
 
 ### Screenshot
 
-![Domain Join](screenshots/18-domain-join.png)
+![Windows 10 Domain Join](screenshots/19-domain-join.png)
 
 ---
 
 # Skills Demonstrated
 
-* Windows Server Administration
-* Active Directory Configuration
-* DNS Administration
-* DHCP Administration
-* Network Infrastructure
-* Virtualization
-* Enterprise Environment Setup
-* Identity & Access Management
+- Windows Server 2022 Administration
+- Active Directory Configuration
+- DNS Administration
+- DHCP Administration
+- Network Infrastructure Management
+- Domain Controller Deployment
+- Identity & Access Management
+- Enterprise Environment Simulation
+- Virtualization using VirtualBox
 
 ---
 
 # Lessons Learned
 
-This lab strengthened my understanding of:
-
-* Enterprise infrastructure deployment
-* Active Directory architecture
-* Domain services
-* DNS & DHCP integration
-* Client-server communication
-* Windows Server administration
+This lab strengthened my practical understanding of:
+- Enterprise infrastructure deployment
+- Active Directory architecture
+- DNS & DHCP integration
+- Domain management
+- Client-server communication
+- Windows Server administration
+- Network service configuration
+- Virtualized enterprise environments
 
 ---
 
 # Future Improvements
 
-* Group Policy Configuration
-* Organizational Units (OUs)
-* User & Group Management
-* Security Hardening
-* SIEM Integration
-* Windows Event Monitoring
+Planned future enhancements for the lab include:
+- Group Policy Configuration
+- Organizational Units (OUs)
+- Advanced User & Group Management
+- Windows Security Hardening
+- SIEM Integration
+- Windows Event Monitoring
+- Security Baseline Configuration
+- Threat Detection & Log Analysis
