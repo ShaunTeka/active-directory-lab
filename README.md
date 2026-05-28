@@ -198,7 +198,7 @@ Used the following administrative tools:
 
 ### Screenshot
 
-![AD Users & Computers](./screenshots/17-ad-users-computers.png)
+![AD Users & Computers](./screenshots/18-ptr-record.png)
 
 ---
 
