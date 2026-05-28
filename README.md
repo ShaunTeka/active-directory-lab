@@ -73,11 +73,11 @@ Installed:
 - Active Directory Domain Services (AD DS)
 - DNS Server
 
-### Screenshot
+### Screenshot (Active Driectory & DNS installation)
 
 ![AD & DNS Installation](./screenshots/02-ad-dns-installation.png)
 
-### Screenshot
+### Screenshot (Active Driectory & DNS successfully installed)
 
 ![AD & DNS Installation Success](./screenshots/03-ad-dns-installed-successfully.png)
 
@@ -87,15 +87,15 @@ Installed:
 
 Promoted the Windows Server to a Domain Controller and configured a new forest for the enterprise environment.
 
-### Screenshot
+### Screenshot (Promoting Server)
 
 ![Promoting Server](./screenshots/04-promoting-server.png)
 
-### Screenshot
+### Screenshot (Active Directory Promotion Options)
 
 ![AD Promotion Options](./screenshots/05-ad-promotion-options.png)
 
-### Screenshot
+### Screenshot (Active Directory Promotion Succeeded)
 
 ![AD Promotion Success](./screenshots/06-ad-promotion-succeeded.png)
 
@@ -106,11 +106,11 @@ Promoted the Windows Server to a Domain Controller and configured a new forest f
 Successfully created the:
 shaunmonwabisiteka.com domain.
 
-### Screenshot
+### Screenshot (Domain created)
 
 ![Domain Created](./screenshots/07-domain-created.png)
 
-### Screenshot
+### Screenshot (Adding A New Forest)
 
 ![Adding New Forest](./screenshots/08-adding-new-forest.png)
 
@@ -129,19 +129,19 @@ Installed and configured DHCP services for automatic IP address assignment withi
 - DHCP Security Groups
 - DHCP Activation
 
-### Screenshot
+### Screenshot (DHCP Installation)
 
 ![DHCP Installation](./screenshots/09-dhcp-installation.png)
 
-### Screenshot
+### Screenshot (DHCP Post Installation)
 
 ![DHCP Post Installation](./screenshots/10-dhcp-post-installation.png)
 
-### Screenshot
+### Screenshot (DHCP Console)
 
 ![DHCP Console](./screenshots/11-dhcp-console.png)
 
-### Screenshot
+### Screenshot (DHCP Scope)
 
 ![DHCP Scope](./screenshots/12-dhcp-scope.png)
 
@@ -158,11 +158,11 @@ Configured the DHCP IPv4 scope for automatic client IP address assignment.
 | Start IP Address | 192.168.1.100 |
 | End IP Address | 192.168.1.254 |
 
-### Screenshot
+### Screenshot (IP Address Range)
 
 ![IP Address Range](./screenshots/13-ip-address-range.png)
 
-### Screenshot
+### Screenshot (DHCP Active)
 
 ![DHCP Active](./screenshots/14-dhcp-active.png)
 
@@ -175,15 +175,15 @@ Configured DNS services including:
 - Reverse Lookup Zones
 - PTR Records
 
-### Screenshot
+### Screenshot (Reverse Lookup Zone)
 
 ![Reverse Lookup Zone](./screenshots/15-reverse-lookup-zone.png)
 
-### Screenshot
+### Screenshot(Active Directory Users & Computers)
 
 ![PTR Record Configuration](./screenshots/16-ad-users-computers.png)
 
-### Screenshot
+### Screenshot (DNS Tools)
 
 ![DNS Management Tools](./screenshots/17-dns-tools.png)
 
@@ -196,7 +196,7 @@ Used the following administrative tools:
 - DNS Management Console
 - DHCP Management Console
 
-### Screenshot
+### Screenshot (PTR Record)
 
 ![AD Users & Computers](./screenshots/18-ptr-record.png)
 
@@ -207,7 +207,7 @@ Used the following administrative tools:
 Successfully joined the Windows 10 client machine (Windows10-VM00) to the:
 shaunmonwabisiteka.com domain.
 
-### Screenshot
+### Screenshot (Domain Join)
 
 ![Windows 10 Domain Join](./screenshots/19-domain-join.png)
 
