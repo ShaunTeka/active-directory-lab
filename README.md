@@ -185,7 +185,7 @@ Configured DNS services including:
 
 ### Screenshot
 
-![DNS Management Tools](./screenshots/18-dns-tools.png)
+![DNS Management Tools](./screenshots/17-dns-tools.png)
 
 ---
 
