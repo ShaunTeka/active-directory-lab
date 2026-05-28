@@ -63,7 +63,7 @@ Performed the initial configuration of Windows Server 2022, including:
 
 ### Screenshot
 
-![Server Configuration](screenshots/01-server-installed.png)
+![Server Configuration](./screenshots/01-server-installed.png)
 
 ---
 
@@ -75,11 +75,11 @@ Installed:
 
 ### Screenshot
 
-![AD & DNS Installation](screenshots/02-ad-dns-installation.png)
+![AD & DNS Installation](./screenshots/02-ad-dns-installation.png)
 
 ### Screenshot
 
-![AD & DNS Installation Success](screenshots/03-ad-dns-installed-successfully.png)
+![AD & DNS Installation Success](./screenshots/03-ad-dns-installed-successfully.png)
 
 ---
 
@@ -89,15 +89,15 @@ Promoted the Windows Server to a Domain Controller and configured a new forest f
 
 ### Screenshot
 
-![Promoting Server](screenshots/04-promoting-server.png)
+![Promoting Server](./screenshots/04-promoting-server.png)
 
 ### Screenshot
 
-![AD Promotion Options](screenshots/05-ad-promotion-options.png)
+![AD Promotion Options](./screenshots/05-ad-promotion-options.png)
 
 ### Screenshot
 
-![AD Promotion Success](screenshots/06-ad-promotion-succeeded.png)
+![AD Promotion Success](./screenshots/06-ad-promotion-succeeded.png)
 
 ---
 
@@ -108,32 +108,11 @@ shaunmonwabisiteka.com domain.
 
 ### Screenshot
 
-![Domain Created](screenshots/07-domain-created.png)
+![Domain Created](./screenshots/07-domain-created.png)
 
 ### Screenshot
 
-![Adding New Forest](screenshots/08-adding-new-forest.png)
-
----
-
-# DNS Configuration
-
-Configured DNS services including:
-- Forward Lookup Zones
-- Reverse Lookup Zones
-- PTR Records
-
-### Screenshot
-
-![Reverse Lookup Zone](screenshots/15-reverse-lookup-zone.png)
-
-### Screenshot
-
-![PTR Record Configuration](screenshots/16-ptr-record.png)
-
-### Screenshot
-
-![DNS Management Tools](screenshots/18-dns-tools.png)
+![Adding New Forest](./screenshots/08-adding-new-forest.png)
 
 ---
 
@@ -152,19 +131,19 @@ Installed and configured DHCP services for automatic IP address assignment withi
 
 ### Screenshot
 
-![DHCP Installation](screenshots/09-dhcp-installation.png)
+![DHCP Installation](./screenshots/09-dhcp-installation.png)
 
 ### Screenshot
 
-![DHCP Post Installation](screenshots/10-dhcp-post-installation.png)
+![DHCP Post Installation](./screenshots/10-dhcp-post-installation.png)
 
 ### Screenshot
 
-![DHCP Console](screenshots/11-dhcp-console.png)
+![DHCP Console](./screenshots/11-dhcp-console.png)
 
 ### Screenshot
 
-![DHCP Scope](screenshots/12-dhcp-scope.png)
+![DHCP Scope](./screenshots/12-dhcp-scope.png)
 
 ---
 
@@ -181,11 +160,32 @@ Configured the DHCP IPv4 scope for automatic client IP address assignment.
 
 ### Screenshot
 
-![IP Address Range](screenshots/13-ip-address-range.png)
+![IP Address Range](./screenshots/13-ip-address-range.png)
 
 ### Screenshot
 
-![DHCP Active](screenshots/14-dhcp-active.png)
+![DHCP Active](./screenshots/14-dhcp-active.png)
+
+---
+
+# DNS Configuration
+
+Configured DNS services including:
+- Forward Lookup Zones
+- Reverse Lookup Zones
+- PTR Records
+
+### Screenshot
+
+![Reverse Lookup Zone](./screenshots/15-reverse-lookup-zone.png)
+
+### Screenshot
+
+![PTR Record Configuration](./screenshots/16-ptr-record.png)
+
+### Screenshot
+
+![DNS Management Tools](./screenshots/18-dns-tools.png)
 
 ---
 
@@ -198,7 +198,7 @@ Used the following administrative tools:
 
 ### Screenshot
 
-![AD Users & Computers](screenshots/17-ad-users-computers.png)
+![AD Users & Computers](./screenshots/17-ad-users-computers.png)
 
 ---
 
@@ -209,7 +209,7 @@ shaunmonwabisiteka.com domain.
 
 ### Screenshot
 
-![Windows 10 Domain Join](screenshots/19-domain-join.png)
+![Windows 10 Domain Join](./screenshots/19-domain-join.png)
 
 ---
 
