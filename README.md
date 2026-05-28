@@ -181,7 +181,7 @@ Configured DNS services including:
 
 ### Screenshot
 
-![PTR Record Configuration](./screenshots/16-ptr-record.png)
+![PTR Record Configuration](./screenshots/16-ad-users-computers.png)
 
 ### Screenshot
 
