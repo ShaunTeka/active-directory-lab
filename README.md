@@ -1,4 +1,6 @@
-# Active Directory Lab – IT Infrastructure & Security Practice Environment
+📂 **# Active Directory Lab – IT Infrastructure & Security Practice Environment:**
+
+[View Project](./active-directory-setup/README.md)
 
 ## Overview
 
