@@ -36,13 +36,13 @@ Focuses on user account creation, group management, role-based access control, a
 
 ---
 
-📂 [**05 Windows Event Monitoring :**](./event-monitoring/README.md)
+📂 [**05 Windows Event Monitoring:**](./event-monitoring/README.md)
 
 Documents system and security log monitoring using Windows Event Viewer, including audit logs, login attempts, and system event tracking for troubleshooting and security analysis.
 
 ---
 
-📂 [**06 Windows Security Hardening **](./security-hardening/README.md)
+📂 [**06 Windows Security Hardening:**](./security-hardening/README.md)
 
 Covers system hardening techniques including firewall configuration, antivirus policies, service restriction, and security baseline implementation to improve system security posture.
 
