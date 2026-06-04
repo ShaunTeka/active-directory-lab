@@ -40,7 +40,7 @@ The objective was to create departmental structures, manage users and groups, se
 
 Create a dedicated Organizational Unit (OU) for the Sales department to logically organize users, groups, and resources.
 
-### Image 01 – Active Directory Users and Computers
+### Active Directory Users and Computers
 
 ![Image 01](screenshots/image01-aduc-console.png)
 
@@ -48,7 +48,7 @@ Opened Active Directory Users and Computers to begin creating the Sales organiza
 
 ---
 
-### Image 02 – Creating the Sales OU
+### Creating the Sales OU
 
 ![Image 02](screenshots/image02-create-sales-ou.png)
 
@@ -66,7 +66,7 @@ Created a new Organizational Unit named **Sales** to contain departmental resour
 
 Create and configure user accounts within the Sales Organizational Unit.
 
-### Image 03 – Creating a Sales User
+### Creating a Sales User
 
 ![Image 03](screenshots/image03-create-sales-user.png)
 
@@ -74,7 +74,7 @@ Created a new user account within the Sales OU.
 
 ---
 
-### Image 04 – Initial Password Configuration
+### Initial Password Configuration
 
 ![Image 04](screenshots/image04-user-password-configuration.png)
 
@@ -82,7 +82,7 @@ Configured the user's initial password and enforced password change at first log
 
 ---
 
-### Image 05 – User Successfully Created
+### User Successfully Created
 
 ![Image 05](screenshots/image05-sales-user-created.png)
 
@@ -100,7 +100,7 @@ The user account was successfully created within the Sales Organizational Unit.
 
 Create a security group to manage access to Sales department resources.
 
-### Image 06 – Creating the Sales Security Group
+### Creating the Sales Security Group
 
 ![Image 06](screenshots/image06-create-sales-group.png)
 
@@ -120,7 +120,7 @@ Security Groups provide centralized permission management and simplify user acce
 
 Configure a shared folder that can only be accessed by authorized Sales personnel.
 
-### Image 07 – Creating the Sales File Share
+### Creating the Sales File Share
 
 ![Image 07](screenshots/image07-create-sales-folder.png)
 
@@ -128,7 +128,7 @@ Created a shared folder named **Sales File** on the server.
 
 ---
 
-### Image 08 – Advanced Sharing Configuration
+### Advanced Sharing Configuration
 
 ![Image 08](screenshots/image08-advanced-sharing.png)
 
@@ -136,7 +136,7 @@ Opened Advanced Sharing settings to configure network access.
 
 ---
 
-### Image 09 – Enabling Folder Sharing
+### Enabling Folder Sharing
 
 ![Image 09](screenshots/image09-enable-folder-sharing.png)
 
@@ -144,7 +144,7 @@ Enabled network sharing and opened permission settings.
 
 ---
 
-### Image 10 – Removing Default Permissions
+### Removing Default Permissions
 
 ![Image 10](screenshots/image10-remove-everyone-group.png)
 
@@ -152,7 +152,7 @@ Removed the default **Everyone** group to strengthen security and reduce unautho
 
 ---
 
-### Image 11 – Selecting Security Principals
+### Selecting Security Principals
 
 ![Image 11](screenshots/image11-select-security-principal.png)
 
@@ -160,7 +160,7 @@ Opened Advanced Object Selection to locate Active Directory groups.
 
 ---
 
-### Image 12 – Searching Active Directory Objects
+### Searching Active Directory Objects
 
 ![Image 12](screenshots/image12-find-sales-group.png)
 
@@ -168,7 +168,7 @@ Located and selected the Sales Group from Active Directory.
 
 ---
 
-### Image 13 – Confirming Group Selection
+### Confirming Group Selection
 
 ![Image 13](screenshots/image13-confirm-sales-group.png)
 
@@ -176,7 +176,7 @@ Confirmed the Sales Group selection.
 
 ---
 
-### Image 14 – Assigning Permissions
+### Assigning Permissions
 
 ![Image 14](screenshots/image14-assign-share-permissions.png)
 
@@ -184,7 +184,7 @@ Assigned Change permissions to the Sales Group.
 
 ---
 
-### Image 15 – Shared Folder Network Path
+### Shared Folder Network Path
 
 ![Image 15](screenshots/image15-sales-share-path.png)
 
@@ -206,7 +206,7 @@ Verified the shared folder network path:
 
 Grant users access to shared resources through security group membership.
 
-### Image 16 – Adding User to Sales Group
+### Adding User to Sales Group
 
 ![Image 16](screenshots/image16-add-user-to-sales-group.png)
 
@@ -214,7 +214,7 @@ Opened Sales Group membership settings.
 
 ---
 
-### Image 17 – Membership Confirmation
+### Membership Confirmation
 
 ![Image 17](screenshots/image17-sales-group-member-added.png)
 
@@ -222,7 +222,7 @@ Added Nomvula Teka to the Sales Group.
 
 ---
 
-### Image 18 – User-Centric Membership Management
+### User-Centric Membership Management
 
 ![Image 18](screenshots/image18-user-memberof-tab.png)
 
@@ -230,7 +230,7 @@ Demonstrated an alternative method of managing group memberships through user ac
 
 ---
 
-### Image 19 – Existing Group Memberships
+### Existing Group Memberships
 
 ![Image 19](screenshots/image19-user-group-memberships.png)
 
@@ -238,7 +238,7 @@ Reviewed current group memberships assigned to the user.
 
 ---
 
-### Image 20 – Advanced Group Search
+### Advanced Group Search
 
 ![Image 20](screenshots/image20-group-search-advanced.png)
 
@@ -246,7 +246,7 @@ Opened Advanced Search for Active Directory groups.
 
 ---
 
-### Image 21 – Active Directory Group Discovery
+### Active Directory Group Discovery
 
 ![Image 21](screenshots/image21-group-search-results.png)
 
@@ -264,7 +264,7 @@ Reviewed available groups and security principals within Active Directory.
 
 Create an ICT department structure and assign administrative privileges to a designated administrator.
 
-### Image 22 – ICT Department Creation
+### ICT Department Creation
 
 ![Image 22](screenshots/image22-ict-ou-user-group-created.png)
 
@@ -272,7 +272,7 @@ Created the ICT Organizational Unit, security group, and administrator account.
 
 ---
 
-### Image 23 – Assigning Administrative Responsibilities
+### Assigning Administrative Responsibilities
 
 ![Image 23](screenshots/image23-ict-admin-user.png)
 
@@ -280,7 +280,7 @@ Prepared the ICT Systems Administrator account for elevated access.
 
 ---
 
-### Image 24 – Administrative Group Memberships
+### Administrative Group Memberships
 
 ![Image 24](screenshots/image24-admin-group-memberships.png)
 
@@ -306,7 +306,7 @@ Assigned privileged administrative groups including:
 
 Validate administrator login and access permissions.
 
-### Image 25 – Administrator Login
+### Administrator Login
 
 ![Image 25](screenshots/image25-admin-login.png)
 
@@ -314,7 +314,7 @@ Attempted first sign-in using the administrator account.
 
 ---
 
-### Image 26 – Password Change Requirement
+### Password Change Requirement
 
 ![Image 26](screenshots/image26-password-change-required.png)
 
@@ -322,7 +322,7 @@ The account was required to change its password during first login.
 
 ---
 
-### Image 27 – Password Update
+### Password Update
 
 ![Image 27](screenshots/image27-password-update.png)
 
@@ -330,7 +330,7 @@ Configured a new secure password.
 
 ---
 
-### Image 28 – Password Change Successful
+### Password Change Successful
 
 ![Image 28](screenshots/image28-password-changed.png)
 
@@ -338,7 +338,7 @@ Password update completed successfully.
 
 ---
 
-### Image 29 – Successful Administrator Sign-In
+### Successful Administrator Sign-In
 
 ![Image 29](screenshots/image29-admin-signin-successful.png)
 
@@ -346,7 +346,7 @@ Administrator account authenticated successfully.
 
 ---
 
-### Image 30 – Accessing Shared Resources
+### Accessing Shared Resources
 
 ![Image 30](screenshots/image30-access-server-share.png)
 
@@ -354,7 +354,7 @@ Accessed server resources through the network path.
 
 ---
 
-### Image 31 – Access Denied Validation
+### Access Denied Validation
 
 ![Image 31](screenshots/image31-access-denied-example.png)
 
