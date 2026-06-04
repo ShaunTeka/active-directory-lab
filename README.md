@@ -12,33 +12,38 @@ The project is organized into modular folders representing key ICT infrastructur
 
 ---
 
-📂 [**01 Active Directory Setup:**](./microsoft-sentinel-threat-hunting-lab/README.md)
+📂 [**01 Active Directory Setup:**](./active-directory-setup/README.md)
 
 This section documents the installation and initial configuration of Windows Server. It includes setup procedures, system configuration, network settings, and virtualization environment preparation. However, it also contains the deployment of Active Directory Domain Services (AD DS), domain creation, and domain controller configuration. This forms the foundation of the lab environment.
 
 ---
 
-📂 **02 - Organizational Units (OUs):**
+📂 [**02 Organizational Units (OUs):**](./ou-design/README.md)
+
 Covers the design and implementation of Organizational Units (OUs) to structure users and resources according to enterprise-level departmental hierarchy.
 
 ---
 
-### 03 - Group Policy Configuration
+📂 [**03 Group Policy Configuration:**](./group-policy-configuration/README.md)
+
 Includes Group Policy Object (GPO) configurations such as password policies, account restrictions, security settings, and desktop environment controls.
 
 ---
 
-### 04 - Advanced User & Group Management
+📂 [**04 Advanced User & Group Management:**](./user-group-management/README.md)
+
 Focuses on user account creation, group management, role-based access control, and permission assignment within Active Directory.
 
 ---
 
-### 05 - Windows Event Monitoring
+📂 [**05 Windows Event Monitoring :**](./event-monitoring/README.md)
+
 Documents system and security log monitoring using Windows Event Viewer, including audit logs, login attempts, and system event tracking for troubleshooting and security analysis.
 
 ---
 
-### 06 - Windows Security Hardening
+📂 [**06 Windows Security Hardening **](./security-hardening/README.md)
+
 Covers system hardening techniques including firewall configuration, antivirus policies, service restriction, and security baseline implementation to improve system security posture.
 
 ---
