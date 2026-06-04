@@ -10,37 +10,34 @@ The project is organized into modular folders representing key ICT infrastructur
 
 ## Repository Structure
 
-### 01 - Windows Server Installation
-This section documents the installation and initial configuration of Windows Server. It includes setup procedures, system configuration, network settings, and virtualization environment preparation.
+---
+
+### 01 - Active Directory Setup
+This section documents the installation and initial configuration of Windows Server. It includes setup procedures, system configuration, network settings, and virtualization environment preparation. However, it also contains the deployment of Active Directory Domain Services (AD DS), domain creation, and domain controller configuration. This forms the foundation of the lab environment.
 
 ---
 
-### 02 - Active Directory Setup
-Contains the deployment of Active Directory Domain Services (AD DS), domain creation, and domain controller configuration. This forms the foundation of the lab environment.
-
----
-
-### 03 - Organizational Units (OUs)
+### 02 - Organizational Units (OUs)
 Covers the design and implementation of Organizational Units (OUs) to structure users and resources according to enterprise-level departmental hierarchy.
 
 ---
 
-### 04 - Group Policy Configuration
+### 03 - Group Policy Configuration
 Includes Group Policy Object (GPO) configurations such as password policies, account restrictions, security settings, and desktop environment controls.
 
 ---
 
-### 05 - Advanced User & Group Management
+### 04 - Advanced User & Group Management
 Focuses on user account creation, group management, role-based access control, and permission assignment within Active Directory.
 
 ---
 
-### 06 - Windows Event Monitoring
+### 05 - Windows Event Monitoring
 Documents system and security log monitoring using Windows Event Viewer, including audit logs, login attempts, and system event tracking for troubleshooting and security analysis.
 
 ---
 
-### 07 - Windows Security Hardening
+### 06 - Windows Security Hardening
 Covers system hardening techniques including firewall configuration, antivirus policies, service restriction, and security baseline implementation to improve system security posture.
 
 ---
