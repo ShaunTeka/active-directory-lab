@@ -20,7 +20,7 @@ This section documents the installation and initial configuration of Windows Ser
 
 ---
 
-**02 Organizational Units (OUs):**
+**🏬 Organizational Units (OUs):**
 
 Covers the design and implementation of Organizational Units (OUs) to structure users and resources according to enterprise-level departmental hierarchy.
 
