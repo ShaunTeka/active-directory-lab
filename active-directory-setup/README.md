@@ -213,6 +213,58 @@ shaunmonwabisiteka.com domain.
 
 ---
 
+### Domain Join Credentials
+
+![Image 20](screenshots/image20-domain-join-credentials.png)
+
+Entered domain administrator credentials to authorize the Windows 10 client machine to join the Active Directory domain.
+
+This step validates that only authorized administrators can add devices to the domain environment.
+
+---
+
+### Domain Joined Successfully
+
+![Image 21](screenshots/image21-domain-join-successful.png)
+
+The Windows 10 client machine was successfully joined to the Active Directory domain.
+
+This confirms secure communication between the client workstation and the domain controller, enabling centralized identity and access management.
+
+---
+
+### Restart Required
+
+![Image 22](screenshots/image22-restart-required.png)
+
+Windows prompted for a system restart to apply the domain membership changes.
+
+A restart is required to complete the domain join process and update the machine's authentication relationship with the domain controller.
+
+---
+
+### Domain User Sign-In
+
+![Image 23](screenshots/image23-domain-user-signin.png)
+
+Successfully signed in to the Windows 10 client machine using Active Directory domain credentials.
+
+This confirms that domain authentication is functioning correctly and that users can access organizational resources using centralized Active Directory accounts.
+
+---
+
+## Outcome
+
+✅ Successfully joined a Windows 10 client machine to the Active Directory domain.
+
+✅ Verified domain authentication using Active Directory user credentials.
+
+✅ Demonstrated centralized identity and access management through Active Directory.
+
+✅ Validated communication between the client workstation and domain controller.
+
+---
+
 # Skills Demonstrated
 
 - Windows Server 2022 Administration
