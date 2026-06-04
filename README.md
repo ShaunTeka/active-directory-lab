@@ -16,37 +16,47 @@ The project is organized into modular folders representing key ICT infrastructur
 
 This section documents the installation and initial configuration of Windows Server. It includes setup procedures, system configuration, network settings, and virtualization environment preparation. However, it also contains the deployment of Active Directory Domain Services (AD DS), domain creation, and domain controller configuration. This forms the foundation of the lab environment.
 
-📂 [**View Project:**](./active-directory-setup/README.md)
+📂 [**View Project**](./active-directory-setup/README.md)
 
 ---
 
-📂 [**02 Organizational Units (OUs):**](./ou-design/README.md)
+**02 Organizational Units (OUs):**
 
 Covers the design and implementation of Organizational Units (OUs) to structure users and resources according to enterprise-level departmental hierarchy.
 
+📂 [**View Project**](./ou-design/README.md)
+
 ---
 
-📂 [**03 Group Policy Configuration:**](./group-policy-configuration/README.md)
+**03 Group Policy Configuration:**
 
 Includes Group Policy Object (GPO) configurations such as password policies, account restrictions, security settings, and desktop environment controls.
 
+📂 [**View Project**](./group-policy-configuration/README.md)
+
 ---
 
-📂 [**04 Advanced User & Group Management:**](./user-group-management/README.md)
+**04 Advanced User & Group Management:**
 
 Focuses on user account creation, group management, role-based access control, and permission assignment within Active Directory.
 
+📂 [**View Project**](./user-group-management/README.md)
+
 ---
 
-📂 [**05 Windows Event Monitoring:**](./event-monitoring/README.md)
+**05 Windows Event Monitoring:**
 
 Documents system and security log monitoring using Windows Event Viewer, including audit logs, login attempts, and system event tracking for troubleshooting and security analysis.
 
+📂 [**View Project**](./event-monitoring/README.md)
+
 ---
 
-📂 [**06 Windows Security Hardening:**](./security-hardening/README.md)
+**06 Windows Security Hardening:**
 
 Covers system hardening techniques including firewall configuration, antivirus policies, service restriction, and security baseline implementation to improve system security posture.
+
+📂 [**View Project**](./security-hardening/README.md)
 
 ---
 
