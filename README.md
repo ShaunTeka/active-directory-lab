@@ -12,7 +12,7 @@ The project is organized into modular folders representing key ICT infrastructur
 
 ---
 
-**🗂️ · 👥 · 🖥️ · 🪟 Active Directory Setup:**
+**🪟 Active Directory Setup:**
 
 This section documents the installation and initial configuration of Windows Server. It includes setup procedures, system configuration, network settings, and virtualization environment preparation. However, it also contains the deployment of Active Directory Domain Services (AD DS), domain creation, and domain controller configuration. This forms the foundation of the lab environment.
 
@@ -28,7 +28,7 @@ Covers the design and implementation of Organizational Units (OUs) to structure 
 
 ---
 
-**03 Group Policy Configuration:**
+**⚖️ Group Policy Configuration:**
 
 Includes Group Policy Object (GPO) configurations such as password policies, account restrictions, security settings, and desktop environment controls.
 
@@ -36,7 +36,7 @@ Includes Group Policy Object (GPO) configurations such as password policies, acc
 
 ---
 
-**04 Advanced User & Group Management:**
+**👥 Advanced User & Group Management:**
 
 Focuses on user account creation, group management, role-based access control, and permission assignment within Active Directory.
 
@@ -44,7 +44,7 @@ Focuses on user account creation, group management, role-based access control, a
 
 ---
 
-**05 Windows Event Monitoring:**
+**🖥️ Windows Event Monitoring:**
 
 Documents system and security log monitoring using Windows Event Viewer, including audit logs, login attempts, and system event tracking for troubleshooting and security analysis.
 
@@ -52,7 +52,7 @@ Documents system and security log monitoring using Windows Event Viewer, includi
 
 ---
 
-**06 Windows Security Hardening:**
+**🛡️ Windows Security Hardening:**
 
 Covers system hardening techniques including firewall configuration, antivirus policies, service restriction, and security baseline implementation to improve system security posture.
 
