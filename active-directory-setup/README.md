@@ -215,7 +215,7 @@ shaunmonwabisiteka.com domain.
 
 ### Domain Join Credentials
 
-![Image 20](screenshots/image20-domain-join-credentials.png)
+![Image 20](screenshots/20-domain-join-credentials.png)
 
 Entered domain administrator credentials to authorize the Windows 10 client machine to join the Active Directory domain.
 
@@ -225,7 +225,7 @@ This step validates that only authorized administrators can add devices to the d
 
 ### Domain Joined Successfully
 
-![Image 21](screenshots/image21-domain-joined-successful.png)
+![Image 21](screenshots/21-domain-joined-successful.png)
 
 The Windows 10 client machine was successfully joined to the Active Directory domain.
 
@@ -235,7 +235,7 @@ This confirms secure communication between the client workstation and the domain
 
 ### Restart Required
 
-![Image 22](screenshots/image22-restart-to-apply-changes.png)
+![Image 22](screenshots/22-restart-to-apply-changes.png)
 
 Windows prompted for a system restart to apply the domain membership changes.
 
@@ -245,7 +245,7 @@ A restart is required to complete the domain join process and update the machine
 
 ### Domain User Sign-In
 
-![Image 23](screenshots/image23-windows10-sign-in.png)
+![Image 23](screenshots/23-windows10-sign-in.png)
 
 Successfully signed in to the Windows 10 client machine using Active Directory domain credentials.
 
