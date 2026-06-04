@@ -77,7 +77,7 @@ Installed:
 
 ![AD & DNS Installation](./screenshots/02-ad-dns-installation.png)
 
-### Screenshot (Active Driectory & DNS successfully installed)
+### Active Driectory & DNS successfully installed
 
 ![AD & DNS Installation Success](./screenshots/03-ad-dns-installed-successfully.png)
 
