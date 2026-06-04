@@ -225,7 +225,7 @@ This step validates that only authorized administrators can add devices to the d
 
 ### Domain Joined Successfully
 
-![Image 21](screenshots/21-domain-joined-successful.png)
+![Image 21](screenshots/21-domain-joined-successfully.png)
 
 The Windows 10 client machine was successfully joined to the Active Directory domain.
 
