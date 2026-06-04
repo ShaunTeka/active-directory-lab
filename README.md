@@ -60,11 +60,6 @@ Covers system hardening techniques including firewall configuration, antivirus p
 
 ---
 
-### Documentation
-Includes supporting documents such as diagrams, architecture explanations, and technical notes related to the lab environment.
-
----
-
 ## Purpose of This Project
 
 The objective of this lab is to demonstrate practical skills in:
