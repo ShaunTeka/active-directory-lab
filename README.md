@@ -12,7 +12,7 @@ The project is organized into modular folders representing key ICT infrastructur
 
 ---
 
-**🪟 Active Directory Setup:**
+**🖥 Active Directory Setup:**
 
 This section documents the installation and initial configuration of Windows Server. It includes setup procedures, system configuration, network settings, and virtualization environment preparation. However, it also contains the deployment of Active Directory Domain Services (AD DS), domain creation, and domain controller configuration. This forms the foundation of the lab environment.
 
@@ -44,7 +44,7 @@ Focuses on user account creation, group management, role-based access control, a
 
 ---
 
-**🖥️ Windows Event Monitoring:**
+**🪟 Windows Event Monitoring:**
 
 Documents system and security log monitoring using Windows Event Viewer, including audit logs, login attempts, and system event tracking for troubleshooting and security analysis.
 
