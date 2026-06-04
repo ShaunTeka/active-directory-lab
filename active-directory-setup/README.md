@@ -73,7 +73,7 @@ Installed:
 - Active Directory Domain Services (AD DS)
 - DNS Server
 
-### Screenshot (Active Driectory & DNS installation)
+### Active Driectory & DNS installation
 
 ![AD & DNS Installation](./screenshots/02-ad-dns-installation.png)
 
