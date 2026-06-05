@@ -1,1 +1,294 @@
+# Group Policy Configuration Lab
 
+## Overview
+
+This lab demonstrates the creation, configuration, and deployment of Group Policy Objects (GPOs) within a Windows Server Active Directory environment. The objective was to enforce organizational security controls and administrative settings through centralized policy management.
+
+The lab focused on creating custom Group Policy Objects, configuring security-related policies, linking GPOs to Organizational Units (OUs), and applying the policies to client devices.
+
+---
+
+# Technologies Used
+
+- Windows Server 2022
+- Active Directory Domain Services (AD DS)
+- Group Policy Management (GPM)
+- Group Policy Management Editor
+- Windows 10 Client
+- VirtualBox
+
+---
+
+# Objectives
+
+- Create and manage Group Policy Objects (GPOs)
+- Configure computer-based security policies
+- Deploy policies to Organizational Units (OUs)
+- Enforce centralized administrative controls
+- Validate policy deployment on client systems
+- Strengthen endpoint security through Group Policy
+
+---
+
+# Lab Activities
+
+## 1. Accessing Group Policy Management
+
+Opened the Group Policy Management Console from Server Manager to begin configuring domain policies.
+
+### Activities Performed
+
+- Opened Server Manager
+- Navigated to **Tools**
+- Selected **Group Policy Management**
+
+### Group Policy Management
+
+![Group Policy Management](./screenshots/01-group-policy-management.png)
+
+---
+
+## 2. Reviewing Existing Group Policy Objects
+
+Explored the default Group Policy Objects available within the Active Directory domain.
+
+### Activities Performed
+
+- Expanded the **Domains** node
+- Opened **Group Policy Objects**
+- Reviewed the default domain policies
+
+### Default Group Policy Objects
+
+![Default GPOs](./screenshots/02-default-gpos.png)
+
+---
+
+## 3. Creating a New Group Policy Object
+
+Created a new custom Group Policy Object named:
+
+**Setting up Start Menu**
+
+### Activities Performed
+
+- Right-clicked **Group Policy Objects**
+- Selected **New**
+- Created the custom GPO
+
+### Creating Group Policy Object
+
+![Create GPO](./screenshots/03-create-gpo.png)
+
+---
+
+## 4. Reviewing GPO Details
+
+Reviewed the newly created Group Policy Object and its configuration details.
+
+### Activities Performed
+
+- Selected the new GPO
+- Opened the **Details** tab
+
+### Group Policy Details
+
+![GPO Details](./screenshots/04-gpo-details.png)
+
+---
+
+## 5. Editing the Group Policy Object
+
+Opened the Group Policy Management Editor to configure policy settings.
+
+### Activities Performed
+
+- Right-clicked the GPO
+- Selected **Edit**
+- Reviewed:
+  - Computer Configuration
+  - User Configuration
+
+### Group Policy Editor
+
+![GPO Editor](./screenshots/05-gpo-editor.png)
+
+---
+
+## 6. Configuring Start Menu & Taskbar Policies
+
+Navigated to the Administrative Templates section to configure system restrictions.
+
+### Activities Performed
+
+- Opened:
+  - Computer Configuration
+  - Policies
+  - Administrative Templates
+  - Start Menu and Taskbar
+
+### Administrative Templates
+
+![Administrative Templates](./screenshots/06-administrative-templates.png)
+
+---
+
+## 7. Restricting Shutdown Options
+
+Configured a policy to prevent users from accessing system shutdown and restart options.
+
+### Activities Performed
+
+- Opened:
+  **Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands**
+- Enabled the policy
+- Applied the configuration
+
+### Shut, Restart, Sleep, and Hibernate Restriction
+
+![Shutdown Restriction](./screenshots/07-shutdown-restriction.png)
+
+---
+
+## 8. Verifying Policy Status
+
+Confirmed that the shutdown restriction policy was successfully enabled.
+
+### Policy enabled
+
+![Policy Enabled](./screenshots/08-policy-enabled.png)
+
+---
+
+## 9. Restricting Removable Media Installations
+
+Configured a policy to prevent installations from removable media devices.
+
+### Activities Performed
+
+- Opened:
+  **Prevent removable media source for any installation**
+- Enabled the policy
+- Applied the configuration
+
+### Removable Media Policy
+
+![Removable Media Policy](./screenshots/10-removable-media-policy.png)
+
+![Policy Configuration](./screenshots/11-policy-configuration.png)
+
+---
+
+## 10. Linking the GPO to an Organizational Unit
+
+Linked the newly created GPO to the Finance Organizational Unit (OU).
+
+### Activities Performed
+
+- Selected the **Finance OU**
+- Linked the **Setting up Start Menu** GPO
+
+### Linking All Group Policies 
+
+![Link GPO](./screenshots/12-link-gpo.png)
+
+---
+
+## 11. Verifying GPO Deployment
+
+Confirmed that the GPO was successfully linked and configured for enforcement.
+
+### Activities Performed
+
+- Reviewed the **Scope** tab
+- Verified policy deployment settings
+
+### Group Policies Linked
+
+![GPO Linked](./screenshots/13-gpo-linked.png)
+
+![GPO Scope](./screenshots/14-gpo-scope.png)
+
+---
+
+## 12. Domain-Wide Policy Deployment
+
+Expanded policy deployment across all Organizational Units within the domain to improve security consistency.
+
+### Domain Wide Deployment
+
+![Domain-Wide Deployment](./screenshots/15-domain-wide-deployment.png)
+
+---
+
+## 13. Policy Enforcement on Client Device
+
+Verified policy application on a Windows 10 client machine.
+
+### Activities Performed
+
+- Logged into the client workstation
+- Reviewed the system before policy enforcement
+- Opened the Run dialog box
+- Executed Group Policy update
+- Refreshed Group Policy settings
+- Confirmed successful policy updates
+
+### Command Used
+
+```powershell
+gpupdate /force
+```
+
+### Client Machine Before
+
+![Client Before GPO](./screenshots/16-client-before-gpo.png)
+
+![Pre-Enforcement State](./screenshots/17-pre-enforcement.png)
+
+![GPUpdate Command](./screenshots/18-gpupdate-command.png)
+
+![Policy Update Success](./screenshots/19-policy-update-success.png)
+
+---
+
+# Skills Demonstrated
+
+- Active Directory Administration
+- Group Policy Management
+- Windows Server Administration
+- Organizational Unit (OU) Management
+- Security Policy Configuration
+- Endpoint Hardening
+- Identity & Access Management (IAM)
+- Enterprise Infrastructure Administration
+- Windows Client Management
+
+---
+
+# Lessons Learned
+
+This lab strengthened my understanding of:
+
+- Group Policy architecture
+- Centralized administration
+- Security policy deployment
+- Organizational Unit management
+- Enterprise endpoint security
+- Windows Server administration
+- Policy enforcement and troubleshooting
+
+---
+
+# Future Improvements
+
+Planned future enhancements include:
+
+- Password Policy Configuration
+- Account Lockout Policies
+- Software Restriction Policies
+- Group Policy Preferences
+- Windows Security Baselines
+- Administrative Template Expansion
+- Security Hardening Policies
+- Advanced Active Directory Management
