@@ -1,6 +1,6 @@
-# Group Policy Configuration Lab
+# 🛡️ Group Policy Configuration Lab
 
-## Overview
+## 📖 Overview
 
 This lab demonstrates the creation, configuration, and deployment of Group Policy Objects (GPOs) within a Windows Server Active Directory environment. The objective was to enforce organizational security controls and administrative settings through centralized policy management.
 
@@ -8,7 +8,7 @@ The lab focused on creating custom Group Policy Objects, configuring security-re
 
 ---
 
-# Technologies Used
+# 🛠️ Technologies Used
 
 - Windows Server 2022
 - Active Directory Domain Services (AD DS)
@@ -19,7 +19,7 @@ The lab focused on creating custom Group Policy Objects, configuring security-re
 
 ---
 
-# Objectives
+# 🎯 Objectives
 
 - Create and manage Group Policy Objects (GPOs)
 - Configure computer-based security policies
@@ -30,9 +30,9 @@ The lab focused on creating custom Group Policy Objects, configuring security-re
 
 ---
 
-# Lab Activities
+# 🧪 Lab Activities
 
-## 1. Accessing Group Policy Management
+## 1️⃣ Accessing Group Policy Management
 
 Opened the Group Policy Management Console from Server Manager to begin configuring domain policies.
 
@@ -48,7 +48,7 @@ Opened the Group Policy Management Console from Server Manager to begin configur
 
 ---
 
-## 2. Reviewing Existing Group Policy Objects
+## 2️⃣ Reviewing Existing Group Policy Objects
 
 Explored the default Group Policy Objects available within the Active Directory domain.
 
@@ -58,13 +58,14 @@ Explored the default Group Policy Objects available within the Active Directory 
 - Opened **Group Policy Objects**
 - Reviewed the default domain policies
 
+
 ### Default Group Policy Objects
 
 ![Default GPOs](./screenshots/02-default-gpos.png)
 
 ---
 
-## 3. Creating a New Group Policy Object
+## 3️⃣ Creating a New Group Policy Object
 
 Created a new custom Group Policy Object named:
 
@@ -82,7 +83,7 @@ Created a new custom Group Policy Object named:
 
 ---
 
-## 4. Reviewing GPO Details
+## 4️⃣ Reviewing GPO Details
 
 Reviewed the newly created Group Policy Object and its configuration details.
 
@@ -97,17 +98,18 @@ Reviewed the newly created Group Policy Object and its configuration details.
 
 ---
 
-## 5. Editing the Group Policy Object
+## 5️⃣ Editing the Group Policy Object
 
 Opened the Group Policy Management Editor to configure policy settings.
 
 ### Activities Performed
 
-- Right-clicked the GPO
-- Selected **Edit**
 - Reviewed:
   - Computer Configuration
   - User Configuration
+
+💡 **Note:** Computer policies apply during system startup, while user policies apply when a user signs in.
+
 
 ### Group Policy Editor
 
@@ -115,10 +117,9 @@ Opened the Group Policy Management Editor to configure policy settings.
 
 ---
 
-## 6. Configuring Start Menu & Taskbar Policies
+## 6️⃣ Configuring Start Menu & Taskbar Policies
 
-Navigated to the Administrative Templates section to configure system restrictions.
-
+Configured security restrictions within Administrative Templates.
 ### Activities Performed
 
 - Opened:
@@ -133,45 +134,41 @@ Navigated to the Administrative Templates section to configure system restrictio
 
 ---
 
-## 7. Restricting Shutdown Options
+## 7️⃣ Restricting Shutdown Options
 
-Configured a policy to prevent users from accessing system shutdown and restart options.
+Configured a policy to prevent users from accessing:
 
-### Activities Performed
+- Shut Down
+- Restart
+- Sleep
+- Hibernate
 
-- Opened:
-  **Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands**
-- Enabled the policy
-- Applied the configuration
+### 🔒 Security Control Applied
 
+Enabled:
+**Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands**
 ### Shut, Restart, Sleep, and Hibernate Restriction
 
 ![Shutdown Restriction](./screenshots/07-shutdown-restriction.png)
 
 ---
 
-## 8. Verifying Policy Status
+## 8️⃣ Verifying Policy Status
 
-Confirmed that the shutdown restriction policy was successfully enabled.
-
-### Policy enabled
+Confirmed that the policy was successfully enabled.
 
 ![Policy Enabled](./screenshots/08-policy-enabled.png)
 
 ---
 
-## 9. Restricting Removable Media Installations
+## 9️⃣ Restricting Removable Media Installations
 
 Configured a policy to prevent installations from removable media devices.
 
-### Activities Performed
+### 🔒 Security Control Applied
 
-- Opened:
-  **Prevent removable media source for any installation**
-- Enabled the policy
-- Applied the configuration
-
-### Removable Media Policy
+Enabled:
+**Prevent removable media source for any installation**
 
 ![Removable Media Policy](./screenshots/10-removable-media-policy.png)
 
@@ -179,7 +176,7 @@ Configured a policy to prevent installations from removable media devices.
 
 ---
 
-## 10. Linking the GPO to an Organizational Unit
+## 🔟 Linking the GPO to an Organizational Unit
 
 Linked the newly created GPO to the Finance Organizational Unit (OU).
 
@@ -194,7 +191,7 @@ Linked the newly created GPO to the Finance Organizational Unit (OU).
 
 ---
 
-## 11. Verifying GPO Deployment
+## 1️⃣1️⃣ Verifying GPO Deployment
 
 Confirmed that the GPO was successfully linked and configured for enforcement.
 
@@ -211,7 +208,7 @@ Confirmed that the GPO was successfully linked and configured for enforcement.
 
 ---
 
-## 12. Domain-Wide Policy Deployment
+## 1️⃣2️⃣ Domain-Wide Policy Deployment
 
 Expanded policy deployment across all Organizational Units within the domain to improve security consistency.
 
@@ -221,7 +218,7 @@ Expanded policy deployment across all Organizational Units within the domain to 
 
 ---
 
-## 13. Policy Enforcement on Client Device
+## 1️⃣3️⃣ Policy Enforcement on Client Device
 
 Verified policy application on a Windows 10 client machine.
 
@@ -234,7 +231,7 @@ Verified policy application on a Windows 10 client machine.
 - Refreshed Group Policy settings
 - Confirmed successful policy updates
 
-### Command Used
+### 💻 Command Used
 
 ```powershell
 gpupdate /force
@@ -252,7 +249,7 @@ gpupdate /force
 
 ---
 
-# Skills Demonstrated
+# 🚀 Skills Demonstrated
 
 - Active Directory Administration
 - Group Policy Management
@@ -266,7 +263,7 @@ gpupdate /force
 
 ---
 
-# Lessons Learned
+# 📚 Lessons Learned
 
 This lab strengthened my understanding of:
 
@@ -280,7 +277,7 @@ This lab strengthened my understanding of:
 
 ---
 
-# Future Improvements
+# 🔮 Future Improvements
 
 Planned future enhancements include:
 
@@ -292,3 +289,9 @@ Planned future enhancements include:
 - Administrative Template Expansion
 - Security Hardening Policies
 - Advanced Active Directory Management
+
+## ✅ Project Status
+
+**Completed Successfully**
+
+This project demonstrates practical experience with **Active Directory Group Policy Management**, **Windows Server Administration**, and **Enterprise Security Controls** within a simulated enterprise environment.
