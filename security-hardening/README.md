@@ -43,7 +43,7 @@ Opened the Active Directory Administrative Center to create and manage password 
 - Navigated to **Tools**
 - Selected **Active Directory Administrative Center**
 
-### 📸 Screenshot
+### Active Directory Administrative Center
 
 ![ADAC](./screenshots/01-adac-launch.png)
 
@@ -59,7 +59,7 @@ Reviewed the domain structure and identified departments requiring stronger pass
 - 👥 Human Resources
 - 💻 Information Communication Technology (ICT)
 
-### 📸 Screenshot
+### Organizational Unit
 
 ![Organizational Units](./screenshots/02-organizational-units.png)
 
@@ -76,7 +76,7 @@ Navigated to the Password Settings Container to create a new Fine-Grained Passwo
 - Opened **Password Settings Container**
 - Created a new Password Settings Object (PSO)
 
-### 📸 Screenshot
+### Password Settings Container
 
 ![Password Settings Container](./screenshots/03-password-settings-container.png)
 
@@ -92,7 +92,7 @@ Configured the new Password Settings Object and prepared it for deployment.
 - Configured account lockout settings
 - Selected target groups and users
 
-### 📸 Screenshot
+### Policy Configuration
 
 ![Policy Configuration](./screenshots/04-policy-configuration.png)
 
@@ -115,7 +115,7 @@ Configured enhanced password security requirements.
 
 💡 **Note:** Fine-Grained Password Policies take precedence over standard domain password policies when applied to users or groups.
 
-### 📸 Screenshot
+### Security Controls
 
 ![Security Controls](./screenshots/05-security-controls.png)
 
@@ -125,7 +125,7 @@ Configured enhanced password security requirements.
 
 Selected the users and groups that would receive the enhanced password policy.
 
-### 📸 Screenshot
+### Select Groups
 
 ![Select Groups](./screenshots/06-select-groups.png)
 
@@ -141,7 +141,7 @@ Applied the policy directly to critical business units.
 - 👥 Human Resources
 - 💻 Information Communication Technology (ICT)
 
-### 📸 Screenshot
+### Policy Assignment
 
 ![Policy Assignment](./screenshots/07-policy-assignment.png)
 
@@ -155,7 +155,7 @@ Confirmed that the Password Settings Object was successfully created.
 
 **Server-Admin-PSO**
 
-### 📸 Screenshot
+### PSO Created
 
 ![PSO Created](./screenshots/08-pso-created.png)
 
@@ -171,7 +171,7 @@ Validated whether the policy was successfully applied to users within the protec
 - Attempted to reset the password
 - Tested policy restrictions
 
-### 📸 Screenshot
+### Testing Policy
 
 ![Testing Policy](./screenshots/09-testing-policy.png)
 
@@ -185,7 +185,7 @@ Attempted to use an insecure password:
 123Pass
 ```
 
-### 📸 Screenshot
+### Weak Password
 
 ![Weak Password Test](./screenshots/10-weak-password-test.png)
 
@@ -204,7 +204,7 @@ or history requirements of the domain.
 
 ✅ This confirms that the policy is functioning correctly.
 
-### 📸 Screenshot
+### Password Rejected
 
 ![Password Rejected](./screenshots/11-password-rejected.png)
 
@@ -220,7 +220,7 @@ Attempted to use a stronger password that met the configured policy requirements
 ShaunMonwabisi26
 ```
 
-### 📸 Screenshot
+### Strong Password
 
 ![Strong Password](./screenshots/12-strong-password.png)
 
@@ -235,7 +235,7 @@ The password change was accepted successfully.
 - Password updated successfully
 - User account modification timestamp updated
 
-### 📸 Screenshot
+### Password Success
 
 ![Password Success](./screenshots/13-password-success.png)
 
@@ -250,7 +250,7 @@ Reviewed the Information Communication Technology (ICT) group properties.
 - Opened ICT group properties
 - Navigated to Password Settings
 
-### 📸 Screenshot
+### ICT Properties
 
 ![ICT Properties](./screenshots/14-ict-properties.png)
 
@@ -266,7 +266,7 @@ Verified that the correct Fine-Grained Password Policy was applied.
 
 💡 Fine-Grained Password Policies override standard account password and lockout policies when applied to a user or group.
 
-### 📸 Screenshot
+### Applied Policy
 
 ![Applied Policy](./screenshots/15-applied-policy.png)
 
