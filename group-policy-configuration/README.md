@@ -247,6 +247,10 @@ gpupdate /force
 
 ![Policy Update Success](./screenshots/19-policy-update-success.png)
 
+### Client Machine After
+
+![No Shutdown Options](./screenshots/No Shutdown Options.png)
+
 ---
 
 # 🚀 Skills Demonstrated
