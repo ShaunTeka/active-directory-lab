@@ -249,7 +249,7 @@ gpupdate /force
 
 ### Client Machine After
 
-![No Shutdown Options](./screenshots/No Shutdown Options.png)
+![No Shutdown Options](./screenshots/No-Shutdown-Options.png)
 
 ---
 
