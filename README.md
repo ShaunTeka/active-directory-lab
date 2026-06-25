@@ -64,7 +64,7 @@ Covers system hardening techniques including firewall configuration, antivirus p
 
 This project demonstrates how to configure Active Directory Domain Services (AD DS) to securely store BitLocker Recovery Keys for domain-joined devices. The lab includes installing BitLocker administration tools, configuring Group Policy Objects (GPOs), enabling recovery key backup to Active Directory, and validating BitLocker deployment on Windows client machines.
 
-📂 **[View Project](./configuring-bitlocker-recovery-key-ad/)**
+📂 **[View Project](./configuring-bitlocker-recovery-key-on-ad/)**
 
 ---
 ## Purpose of This Project
