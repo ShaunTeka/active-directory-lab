@@ -62,7 +62,7 @@ Covers system hardening techniques including firewall configuration, antivirus p
 
 **🔐 Configuring BitLocker Recovery Key in Active Directory:**
 
-The lab includes installing BitLocker administration tools, configuring Group Policy Objects (GPOs), enabling recovery key backup to Active Directory, and validating BitLocker deployment on Windows client machines.
+This demonstrates the configuring of Active Directory to securely store BitLocker Recovery Keys using Group Policy, enabling centralized recovery key management and enterprise endpoint encryption.
 
 📂 **[View Project](./configuring-bitlocker-recovery-key-on-ad/)**
 
