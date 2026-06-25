@@ -45,7 +45,7 @@ Opened Active Directory Users and Computers to verify whether BitLocker Recovery
 - Opened **Active Directory Users and Computers**
 - Navigated to the target computer object
 
-### 📸 Screenshot
+### BitLocker Tab Check
 
 ![BitLocker Tab Check](./screenshots/01-bitlocker-tab-check.png)
 
@@ -60,7 +60,7 @@ Added the required BitLocker management components.
 - BitLocker Drive Encryption Administration Utilities
 - BitLocker Recovery Password Viewer
 
-### 📸 Screenshot
+### Add Roles and Features
 
 ![Add Roles and Features](./screenshots/02-add-roles-features.png)
 
@@ -70,7 +70,7 @@ Added the required BitLocker management components.
 
 Configured feature selections required for Active Directory integration.
 
-### 📸 Screenshot
+### BitLocker Features
 
 ![BitLocker Features](./screenshots/03-bitlocker-features.png)
 
@@ -80,7 +80,7 @@ Configured feature selections required for Active Directory integration.
 
 Started the installation process.
 
-### 📸 Screenshot
+### Install Features
 
 ![Install Features](./screenshots/04-install-features.png)
 
@@ -90,7 +90,7 @@ Started the installation process.
 
 Verified successful installation.
 
-### 📸 Screenshot
+### Installation Complete
 
 ![Installation Complete](./screenshots/05-installation-complete.png)
 
@@ -108,7 +108,7 @@ The message:
 
 indicated that the computer had not yet been encrypted using BitLocker.
 
-### 📸 Screenshot
+### Recovery Tab Available
 
 ![Recovery Tab Available](./screenshots/06-recovery-tab.png)
 
@@ -122,7 +122,7 @@ Created a new Group Policy Object named:
 
 **SMT BitLocker Recovery Key GPO**
 
-### 📸 Screenshot
+### Create BitLocker GPO
 
 ![Create BitLocker GPO](./screenshots/07-create-gpo.png)
 
@@ -140,7 +140,7 @@ Computer Configuration
                 └── BitLocker Drive Encryption
 ```
 
-### 📸 Screenshot
+### Edit BitLocker GPO
 
 ![Edit BitLocker GPO](./screenshots/08-edit-gpo.png)
 
@@ -158,7 +158,7 @@ Enabled:
 
 ✅ Require BitLocker backup to AD DS
 
-### 📸 Screenshot
+### Store Recovery Information
 
 ![Store Recovery Information](./screenshots/09-store-recovery-info.png)
 
@@ -168,7 +168,7 @@ Enabled:
 
 Configured automatic backup of recovery keys to Active Directory.
 
-### 📸 Screenshot
+### Backup to Active Directory Domain Services
 
 ![Backup to AD DS](./screenshots/10-backup-ad-ds.png)
 
@@ -183,7 +183,7 @@ BitLocker Drive Encryption
  └── Operating System Drives
 ```
 
-### 📸 Screenshot
+### Operating System Drives
 
 ![Operating System Drives](./screenshots/11-os-drives.png)
 
@@ -199,7 +199,7 @@ Enabled:
 
 Allows BitLocker deployment on devices that do not have a Trusted Platform Module (TPM).
 
-### 📸 Screenshot
+### Additional Authentication
 
 ![Additional Authentication](./screenshots/12-authentication-startup.png)
 
@@ -209,7 +209,7 @@ Allows BitLocker deployment on devices that do not have a Trusted Platform Modul
 
 Confirmed policy configuration.
 
-### 📸 Screenshot
+### BitLOcker Without TPM
 
 ![BitLocker Without TPM](./screenshots/13-without-tpm.png)
 
@@ -225,7 +225,7 @@ Configured:
 
 🔒 Used Space Only Encryption
 
-### 📸 Screenshot
+### Encryption Type
 
 ![Encryption Type](./screenshots/14-encryption-type.png)
 
@@ -237,7 +237,7 @@ Opened:
 
 **Choose how BitLocker-protected operating system drives can be recovered**
 
-### 📸 Screenshot
+### Recovery Options
 
 ![Recovery Options](./screenshots/15-recovery-options.png)
 
@@ -253,7 +253,7 @@ Enabled:
 
 Ensures recovery keys are securely backed up before encryption begins.
 
-### 📸 Screenshot
+### Recovery Storage Required
 
 ![Recovery Storage Required](./screenshots/16-recovery-storage-required.png)
 
@@ -263,7 +263,7 @@ Ensures recovery keys are securely backed up before encryption begins.
 
 Prepared to deploy the policy across Organizational Units (OUs).
 
-### 📸 Screenshot
+### Link GPO
 
 ![Link GPO](./screenshots/17-link-gpo.png)
 
@@ -275,7 +275,7 @@ Linked the policy to the:
 
 👥 Human Resources Computers OU
 
-### 📸 Screenshot
+### HR GPO
 
 ![HR GPO Link](./screenshots/18-hr-gpo-link.png)
 
@@ -287,7 +287,7 @@ Linked the policy to the:
 
 Opened Command Prompt from the Run dialog.
 
-### 📸 Screenshot
+### Open CMD
 
 ![Open CMD](./screenshots/19-open-cmd.png)
 
@@ -315,7 +315,7 @@ shutdown -r -t 0
 
 Immediately restarts the client computer.
 
-### 📸 Screenshot
+### GPUpdate
 
 ![GPUpdate](./screenshots/20-gpupdate.png)
 
@@ -329,7 +329,7 @@ Navigated to:
 
 **This PC → Local Disk (C:) → Turn on BitLocker**
 
-### 📸 Screenshot
+### Enable BitLocker
 
 ![Enable BitLocker](./screenshots/21-enable-bitlocker.png)
 
@@ -339,7 +339,7 @@ Navigated to:
 
 BitLocker verified that the device met the required prerequisites.
 
-### 📸 Screenshot
+### Verify Requirements
 
 ![Verify Requirements](./screenshots/22-verify-requirements.png)
 
@@ -349,7 +349,7 @@ BitLocker verified that the device met the required prerequisites.
 
 BitLocker prepared the operating system drive for encryption.
 
-### 📸 Screenshot
+### Prepare Drive
 
 ![Prepare Drive](./screenshots/23-prepare-drive.png)
 
@@ -359,7 +359,7 @@ BitLocker prepared the operating system drive for encryption.
 
 Because the device does not contain a TPM chip, a startup authentication method was selected.
 
-### 📸 Screenshot
+### Startup Authentication
 
 ![Startup Authentication](./screenshots/24-startup-authentication.png)
 
@@ -369,7 +369,7 @@ Because the device does not contain a TPM chip, a startup authentication method 
 
 Configured BitLocker Recovery settings before encryption.
 
-### 📸 Screenshot
+### Recovery Preparation
 
 ![Recovery Preparation](./screenshots/25-recovery-preparation.png)
 
