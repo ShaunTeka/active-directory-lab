@@ -1,4 +1,4 @@
-````markdown
+
 # 🔐 Configuring BitLocker Recovery Keys in Active Directory
 
 ## 📖 Overview
